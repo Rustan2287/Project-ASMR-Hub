@@ -1,13 +1,17 @@
-body{
-    background-color: rgb(32, 32, 32);
-    position: relative;
-}
 *{
     overflow: hidden;
     width: auto;
     margin: 0px;  
     padding: 0px;
+    color: white;
+    text-decoration: none;
 }
+
+body{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+}
+
 header{
     padding: 10px;
     background-color: black;
@@ -20,15 +24,14 @@ header{
     grid-template-areas: 
     'Lspace-none logo Cspace-none nav header-search-space right-space sign-in';
     z-index: 1;
-
 }
+
 form{
     grid-area: header-search-space;
 }
+
 .header-search-div{
     height: 30px;
-    
-   
     display: grid;
     grid-template-columns: 30px 1fr;
     grid-template-areas: 
@@ -39,12 +42,14 @@ form{
     border-radius: 30px;
     
 }
+
 .header-search-div img{
     height: 30px;
     display: inline-block;
     grid-area: search-logo;
    
 }
+
 #header-search{
     margin-left: 5px;
     display: inline-block;
@@ -55,6 +60,7 @@ form{
     background-color: rgb(32, 32, 32);
    
 }
+
 header .logo{
     border-radius: 30px;
     font-size: 200%;
@@ -76,6 +82,7 @@ header nav{
     width: fit-content;
     
 }
+
 header nav li{
     padding: 10px;
     display: inline-block;  
@@ -83,9 +90,14 @@ header nav li{
 }
 
 header nav li a{
+
     text-decoration: none;
     color:  orange;
     font-size: 100%;
+}
+
+header nav li a:hover{
+    color: rgb(201, 130, 0)
 }
 
 header a.LogIn{
@@ -95,5 +107,37 @@ header a.LogIn{
     font-size: 120%;
     color: orange;
     text-decoration: none;
+    font-weight: 400;
+}
+
+aside{
+    background-color: rgb(17, 17, 17);
+    display: inline-block;
+    width: 13vw;
+    height: 100vh;
+}
+
+aside nav{
+    margin-top: 30px;
+}
+
+aside nav li{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+aside nav li a{
+    color: orange;
+}
+
+aside nav li a:hover{
+    color: rgb(201, 130, 0)
+}
+
+.main-text-side{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
     font-weight: 400;
 }
