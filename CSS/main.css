@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+}
+*{
+    overflow: hidden;
+    width: auto;
+    margin: 0px;  
+    padding: 0px;
+}
+header{
+    padding: 10px;
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    line-height: 80px;
+    position: sticky;
+    display: grid;
+    grid-template-columns: 4% 170px 4% 1fr 30% 4% 10%;
+    grid-template-areas: 
+    'Lspace-none logo Cspace-none nav header-search-space right-space sign-in';
+    z-index: 1;
+
+}
+form{
+    grid-area: header-search-space;
+}
+.header-search-div{
+    height: 30px;
+    
+   
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-areas: 
+    'search-logo input-poisk';
+    background-color: rgb(32, 32, 32);
+    margin-top: 21px;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+.header-search-div img{
+    height: 30px;
+    display: inline-block;
+    grid-area: search-logo;
+   
+}
+#header-search{
+    margin-left: 5px;
+    display: inline-block;
+    grid-area: input-poisk;
+    outline: none;
+    color: white;
+    border: none;
+    background-color: rgb(32, 32, 32);
+   
+}
+header .logo{
+    border-radius: 30px;
+    font-size: 200%;
+    font-weight: 600;
+    height: fit-content ;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    grid-area: logo;
+    display: inline-block;
+    
+}
+
+header nav{
+    display: inline-block;
+    margin-top: -10px;
+    grid-area: nav;
+    width: fit-content;
+    
+}
+header nav li{
+    padding: 10px;
+    display: inline-block;  
+    list-style: none;
+}
+
+header nav li a{
+    text-decoration: none;
+    color:  orange;
+    font-size: 100%;
+}
+
+header a.LogIn{
+    position: absolute;
+    text-align: center;
+    grid-area: sign-in;
+    font-size: 120%;
+    color: orange;
+    text-decoration: none;
+    font-weight: 400;
+}
