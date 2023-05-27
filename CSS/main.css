@@ -13,6 +13,11 @@ body{
     position: relative;
 }
 
+form{
+    grid-area: header-search-space;
+}
+
+/* Header */
 header{
     padding: 10px;
     background-color: black;
@@ -27,10 +32,7 @@ header{
     z-index: 1;
 }
 
-form{
-    grid-area: header-search-space;
-}
-
+/* Header Search Div */
 .header-search-div{
     height: 30px;
     display: grid;
@@ -62,6 +64,7 @@ form{
    
 }
 
+/* Header Logo */
 header .logo{
     border-radius: 30px;
     font-size: 200%;
@@ -76,6 +79,7 @@ header .logo{
     
 }
 
+/* Header Nav List */
 header nav{
     display: inline-block;
     margin-top: -10px;
@@ -96,6 +100,7 @@ header nav li a{
     font-size: 100%;
 }
 
+/* Hader Login Button */
 header a.LogIn{
     position: absolute;
     text-align: center;
@@ -106,44 +111,45 @@ header a.LogIn{
     font-weight: 400;
 }
 
+/* SideMenu */
 aside{
     position: fixed;
     background-color: rgb(17, 17, 17);
     display: inline-block;
-    width: 14vw;
-    height: 100vh;
+    width: 16vw;
+    height: 90vh;
     overflow: auto;
     
 }
 
-aside::-webkit-scrollbar{
-    display: none;
-}
-
+/* Side Menu List  */
 aside .menu-list{
+    overflow: hidden;
     margin-top: 30px;
-    width: 100%;
 }
 
 aside .menu-list li{
     margin-left: 10%;
     margin-top: 10px;
-    
 }
 
 aside .menu-list li a{
     color: orange;
 }
 
+/* Side Top Char List */
 aside .top-chart-list{
     margin-top: 20px;
-    text-align: center;
 }
 
 aside .top-chart-list li{
+    margin-left: 10%;
     margin-top: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
+/* All Hover */
 aside .top-chart-list a:hover{
     color: rgb(138, 138, 138);
 }
@@ -160,12 +166,32 @@ aside .menu-list li a:hover{
     color: rgb(201, 130, 0)
 }
 
+.sub:hover{
+    background-color: rgb(201, 130, 0)
+}
+
+/* SideBar Settings */
 .main-text-side{
     margin-top: 30px;
     color: white;
     text-align: center;
     font-size: 1.3rem;
     font-weight: 400;
+}
+
+aside::-webkit-scrollbar{
+    /* Delete SideScrollbar */
+    display: none;
+}
+
+.sub{
+    max-width: 100%;
+    background-color: orange;
+    color:black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 2px;
+    margin-left: 10px;
 }
 
 
