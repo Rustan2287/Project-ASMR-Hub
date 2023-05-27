@@ -5,6 +5,7 @@
     padding: 0px;
     color: white;
     text-decoration: none;
+    
 }
 
 body{
@@ -80,7 +81,6 @@ header nav{
     margin-top: -10px;
     grid-area: nav;
     width: fit-content;
-    
 }
 
 header nav li{
@@ -96,10 +96,6 @@ header nav li a{
     font-size: 100%;
 }
 
-header nav li a:hover{
-    color: rgb(201, 130, 0)
-}
-
 header a.LogIn{
     position: absolute;
     text-align: center;
@@ -111,26 +107,56 @@ header a.LogIn{
 }
 
 aside{
+    position: fixed;
     background-color: rgb(17, 17, 17);
     display: inline-block;
-    width: 13vw;
+    width: 14vw;
     height: 100vh;
+    overflow: auto;
+    
 }
 
-aside nav{
+aside::-webkit-scrollbar{
+    display: none;
+}
+
+aside .menu-list{
     margin-top: 30px;
+    width: 100%;
 }
 
-aside nav li{
+aside .menu-list li{
     margin-left: 10%;
     margin-top: 10px;
+    
 }
 
-aside nav li a{
+aside .menu-list li a{
     color: orange;
 }
 
-aside nav li a:hover{
+aside .top-chart-list{
+    margin-top: 20px;
+    text-align: center;
+}
+
+aside .top-chart-list li{
+    margin-top: 10px;
+}
+
+aside .top-chart-list a:hover{
+    color: rgb(138, 138, 138);
+}
+
+header nav li a:hover{
+    color: rgb(201, 130, 0)
+}
+
+header .LogIn:hover{
+    color: rgb(201, 130, 0)
+}
+
+aside .menu-list li a:hover{
     color: rgb(201, 130, 0)
 }
 
@@ -138,6 +164,8 @@ aside nav li a:hover{
     margin-top: 30px;
     color: white;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
+
+
