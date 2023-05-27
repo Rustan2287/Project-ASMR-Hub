@@ -5,7 +5,7 @@
     padding: 0px;
     color: white;
     text-decoration: none;
-    
+    white-space: nowrap;
 }
 
 body{
@@ -22,8 +22,8 @@ header{
     padding: 10px;
     background-color: black;
     width: 100vw;
-    height: 80px;
-    line-height: 80px;
+    height: 45px;
+    line-height: 45px;
     position: sticky;
     display: grid;
     grid-template-columns: 4% 170px 4% 1fr 30% 4% 10%;
@@ -40,10 +40,9 @@ header{
     grid-template-areas: 
     'search-logo input-poisk';
     background-color: rgb(32, 32, 32);
-    margin-top: 21px;
     padding: 5px;
     border-radius: 30px;
-    
+    margin-top: 3px;
 }
 
 .header-search-div img{
@@ -94,7 +93,6 @@ header nav li{
 }
 
 header nav li a{
-
     text-decoration: none;
     color:  orange;
     font-size: 100%;
@@ -116,7 +114,7 @@ aside{
     position: fixed;
     background-color: rgb(17, 17, 17);
     display: inline-block;
-    width: 16vw;
+    width: 200px;
     height: 90vh;
     overflow: auto;
     
@@ -124,7 +122,6 @@ aside{
 
 /* Side Menu List  */
 aside .menu-list{
-    overflow: hidden;
     margin-top: 30px;
 }
 
@@ -185,7 +182,6 @@ aside::-webkit-scrollbar{
 }
 
 .sub{
-    max-width: 100%;
     background-color: orange;
     color:black;
     font-weight: bold;
