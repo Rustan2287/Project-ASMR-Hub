@@ -167,6 +167,32 @@ aside .menu-list li a:hover{
     background-color: rgb(201, 130, 0)
 }
 
+/* main */
+main{
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    width: 100%;
+    height: 100vw;
+    position:absolute;
+    left: 200px;
+}
+main div{
+    display: inline-block;
+}
+main .container{
+    width: 100%;
+    height: fit-content;
+}
+main .vetrina{
+    
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
 /* SideBar Settings */
 .main-text-side{
     margin-top: 30px;
@@ -190,8 +216,5 @@ aside::-webkit-scrollbar{
     margin-left: 10px;
 }
 
-main{
-    position:absolute;
-    right: 100px;
-}
+
 
