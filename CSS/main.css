@@ -117,7 +117,6 @@ aside{
     width: 200px;
     height: 100vh;
     overflow: auto;
-    
 }
 
 /* Side Menu List  */
@@ -137,6 +136,7 @@ aside .menu-list li a{
 /* Side Top Char List */
 aside .top-chart-list{
     margin-top: 20px;
+    padding-bottom: 50%;
 }
 
 aside .top-chart-list li{
