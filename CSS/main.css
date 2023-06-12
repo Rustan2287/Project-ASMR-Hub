@@ -168,28 +168,22 @@ aside .menu-list li a:hover{
 }
 
 /* main */
-main{
-    z-index: 1;
+.FuckinngMain{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 200px;
     width: 100%;
-    height: 100vw;
-    position:absolute;
-    left: 200px;
-}
-main div{
-    display: inline-block;
-}
-main .container{
-    width: 100%;
-    height: fit-content;
-}
-main .vetrina{
+    height: 100vh;
+    left: 230px;
+    top: 30px;
+    position: relative;
     
-    width: fit-content;
-    height: fit-content;
 }
+.FuckinngMain .fucking-vetrine-1{
+    display: inline-block;
+    height: 400px;
+    width: 33.3%;
+}
+
 
 
 
