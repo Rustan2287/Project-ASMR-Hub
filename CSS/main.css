@@ -190,4 +190,8 @@ aside::-webkit-scrollbar{
     margin-left: 10px;
 }
 
+main{
+    position:absolute;
+    right: 100px;
+}
 
