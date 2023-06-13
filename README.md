@@ -19,5 +19,12 @@ made by LI Vladislav only for school project
 
 6. used for tag for search bar
 
+Copyright 2023 
+All reserved 
+
+Author Li Vladislav
+Mail gms.s210509@ggh.goe.go.kr
+GitHub https://github.com/Rustan2287/Project-ASMR-Hub
+
 
  
