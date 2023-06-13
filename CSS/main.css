@@ -168,33 +168,30 @@ aside .menu-list li a:hover{
 }
 
 /* main */
-.FuckinngMain{
-    display: grid;
-    grid-template-columns: repeat(3, fit-content);
-    width: 100%;
+
+.fucking-vetrine-1{
+    overflow: auto;
+    width: 93vw;
     height: 100vh;
     left: 200px;
     position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
     
 }
-.FuckinngMain .fucking-vetrine-1 div{
-    display: inline-block;
-    max-width: 246px;
-    height: 100%;
-    width: 100%;
-}
-.FuckinngMain .fucking-vetrine-1{
-   display: inline-block;
+
+.fucking-vetrine-1 a{
+    float: left;
+    width: 246px;
     height: fit-content;
     margin: 10px;
-    width: 100vw;
-    
 }
-.FuckinngMain .fucking-vetrine-1 h4{
-    text-align: center;
 
+.fucking-vetrine-1 h4{
+    text-align: center;
 }
-.FuckinngMain .fucking-vetrine-1 p{
+
+.fucking-vetrine-1 p{
     height: fit-content;
     line-break:anywhere;
     width: 90%;
@@ -202,11 +199,6 @@ aside .menu-list li a:hover{
     white-space: initial;
     padding-left: 10px;
     text-align: center;
-}
-
-.fucking-vetrine-1 a{
-    width: fit-content;
-    height: fit-content;
 }
 
 
